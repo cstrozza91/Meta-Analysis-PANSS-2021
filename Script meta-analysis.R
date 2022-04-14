@@ -211,7 +211,7 @@ forest(ma2_nf,
        mlab = "Random effects model",
        cex = .75,
        xlab = "Mean difference",
-       main = "PANSS 'Positive'Negative Scale:\nforensic - non forensic")
+       main = "PANSS Negative Scale:\nforensic - non forensic")
 segments(1.81, -1, 1.81, 8, lty = 2, col = 2, lwd = 2)
 text(-13, 9, c("Study"), cex = .75)
 text(13, 9, c("Mean [95%CI]"), cex = .75)
@@ -2107,7 +2107,7 @@ forest(ma2_nf,
        mlab = "Random effects model",
        cex = .5,
        xlab = "Mean difference",
-       main = "PANSS 'Positive'Negative Scale:\nforensic - non forensic")
+       main = "PANSS Negative Scale:\nforensic - non forensic")
 segments(1.81, -1, 1.81, 8, lty = 2, col = 2, lwd = 2)
 text(-13, 9, c("Study"), cex = .6)
 text(13, 9, c("Mean [95%CI]"), cex = .6)
